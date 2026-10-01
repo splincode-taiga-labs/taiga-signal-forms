@@ -119,9 +119,9 @@ export const COMPONENTS: readonly CompatibilityRow[] = CONTROLS.map(
                       : 'Missing [formField] selector',
             detailsUrl:
                 id === 'table-control'
-                    ? 'https://github.com/taiga-family/taiga-ui/blob/main/projects/addon-table/directives/table-control/table-control.directive.ts#L9-L10'
+                    ? 'https://github.com/taiga-family/taiga-ui/blob/v5.26.0/projects/addon-table/directives/table-control/table-control.directive.ts#L9-L10'
                     : testPath
-                      ? `https://github.com/taiga-family/taiga-ui/blob/main/${testPath}`
+                      ? `https://github.com/taiga-family/taiga-ui/blob/v5.26.0/${testPath}`
                       : undefined,
             support,
             supportLabel:
@@ -150,7 +150,7 @@ export const INTEGRATIONS: readonly IntegrationRow[] = [
         package: '@taiga-ui/core',
         label: 'Live + upstream test prepared',
         detailsUrl:
-            'https://github.com/taiga-family/taiga-ui/blob/main/projects/demo-cypress/src/tests/error/signal-forms.cy.ts',
+            'https://github.com/taiga-family/taiga-ui/blob/v5.26.0/projects/demo-cypress/src/tests/error/signal-forms.cy.ts',
         note: 'Signal Forms errors, ordering, reset and validator interop',
     },
     {
@@ -158,7 +158,7 @@ export const INTEGRATIONS: readonly IntegrationRow[] = [
         package: '@taiga-ui/cdk',
         label: 'Upstream test prepared',
         detailsUrl:
-            'https://github.com/taiga-family/taiga-ui/blob/main/projects/demo-cypress/src/tests/native-validator/signal-forms.cy.ts',
+            'https://github.com/taiga-family/taiga-ui/blob/v5.26.0/projects/demo-cypress/src/tests/native-validator/signal-forms.cy.ts',
         note: 'Native validity, aria-invalid and aria-describedby',
     },
     {
@@ -166,7 +166,7 @@ export const INTEGRATIONS: readonly IntegrationRow[] = [
         package: '@taiga-ui/kit',
         label: 'Upstream test prepared',
         detailsUrl:
-            'https://github.com/taiga-family/taiga-ui/blob/main/projects/demo-cypress/src/tests/unfinished-validator/signal-forms.cy.ts',
+            'https://github.com/taiga-family/taiga-ui/blob/v5.26.0/projects/demo-cypress/src/tests/unfinished-validator/signal-forms.cy.ts',
         note: 'Partial date input and Signal Forms validation state',
     },
     {
@@ -174,7 +174,7 @@ export const INTEGRATIONS: readonly IntegrationRow[] = [
         package: '@taiga-ui/experimental',
         label: 'Upstream test prepared',
         detailsUrl:
-            'https://github.com/taiga-family/taiga-ui/blob/main/projects/demo-cypress/src/tests/search-history/signal-forms.cy.ts',
+            'https://github.com/taiga-family/taiga-ui/blob/v5.26.0/projects/demo-cypress/src/tests/search-history/signal-forms.cy.ts',
         note: 'Search history behavior with a [formField]-bound query',
     },
 ];

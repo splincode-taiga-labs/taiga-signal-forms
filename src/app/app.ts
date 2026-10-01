@@ -21,7 +21,7 @@ import {SignalFormsPlayground} from './signal-forms-playground';
                 <div class="versions">
                     <span><strong>Angular</strong> 22.1.7</span>
                     <span><strong>Signal Forms</strong> stable</span>
-                    <span><strong>Taiga UI</strong> 5.24.0</span>
+                    <span><strong>Taiga UI</strong> 5.26.0</span>
                     <span><strong>Form controls</strong> {{ components.length }}</span>
                 </div>
             </header>
