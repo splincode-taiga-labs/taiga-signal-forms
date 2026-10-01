@@ -1,6 +1,6 @@
 # Taiga UI × Angular Signal Forms
 
-A compatibility lab for **Taiga UI 5.24.0** and **Angular 22.1.7 Signal Forms**.
+A compatibility lab for **Taiga UI 5.26.0** and **Angular 22.1.7 Signal Forms**.
 
 Live demo: https://taiga-family-labs.github.io/taiga-signal-forms/
 
@@ -35,7 +35,7 @@ The live lab currently covers **45 public form-control surfaces**.
 | **Partial** | Value binding works, but part of the public API conflicts with Signal Forms metadata. |
 | **Unsupported** | `[formField]` cannot currently activate the control. |
 
-For Taiga UI 5.24.0, **Input Date Multi**, **Input Date Range**, **Input Range**, **Range**, and
+For Taiga UI 5.26.0, **Input Date Multi**, **Input Date Range**, **Input Range**, **Range**, and
 **Textarea** are Partial because of the `min` / `max` / `minLength` / `maxLength` collision
 tracked in angular/angular#70600.
 
