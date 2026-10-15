@@ -2,7 +2,7 @@
 
 A compatibility lab for **Taiga UI 5.26.0** and **Angular 22.1.7 Signal Forms**.
 
-Live demo: https://taiga-family-labs.github.io/taiga-signal-forms/
+Live demo: https://splincode-taiga-labs.github.io/taiga-signal-forms/
 
 ## What this checks
 
@@ -80,3 +80,13 @@ npm run check
 ## GitHub Pages
 
 CI builds every pull request. Changes merged into `main` are deployed with GitHub Pages.
+
+## License and independence
+
+This is an independent, community-maintained open-source project by
+[splincode-taiga-labs](https://github.com/splincode-taiga-labs). It is not an official
+Taiga UI or Pineopticone project and is not endorsed by them.
+
+Original code in this repository is licensed under the [MIT License](LICENSE).
+Third-party libraries, assets, and trademarks remain subject to their respective
+licenses and ownership. This demo uses Taiga UI as an external dependency.
